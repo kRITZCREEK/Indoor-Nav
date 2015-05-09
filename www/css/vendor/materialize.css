@@ -7924,6 +7924,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+
+/* +++++++++++++ Custom CSS +++++++++++++ */
 body {
   display: flex;
   min-height: 100vh;
@@ -7932,4 +7934,14 @@ body {
 
 main {
   flex: 1 0 auto;
+}
+#nav-arrow {
+  width: 100px;
+    height: 100px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
