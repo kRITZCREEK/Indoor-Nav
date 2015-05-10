@@ -33,6 +33,7 @@
     </div>
 </main>
 <footer id="nav-footer" class="page-footer blue lighten-3">
+    <a class="btn btn-floating blue darken-1" href="index.html"><i class="mdi-navigation-arrow-back"></i> </a>
     <a class="waves-effect blue darken-1 btn" id="startButton"><i class="mdi-maps-directions-walk"></i>Start</a>
     <a class="btn-floating btn-large waves-effect blue darken-1"><i class="mdi-action-settings"></i></a>
 </footer>
@@ -71,14 +72,14 @@
         setInterval(changeDirection, 200);
 
         function toggleIcon() {
-            if(aufzug){
+            if(!aufzug){
                 $('#richtungsPfeil').hide();
                 $('#aufzug').show();
-                aufzug = false;
+                aufzug = true;
             }else{
                 $('#richtungsPfeil').show();
                 $('#aufzug').hide();
-                aufzug = true;
+                aufzug = false;
             }
         }
         $('#startButton').on('click', toggleIcon)
