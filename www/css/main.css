@@ -141,6 +141,11 @@ main {
 
 #hover-options {
   display: none;
+  bottom: 0;
+  padding-bottom: 60px;
+  position: absolute;
+  width: 100%;
+}
 }
 
 
