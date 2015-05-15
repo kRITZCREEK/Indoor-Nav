@@ -1,6 +1,6 @@
 [
 {
-  "color": "red lighten-1",
+  "color": "dark-blue",
   "icons": ["fa fa-medkit"],
   "text": "Erste Hilfe",
   "link": {
@@ -11,7 +11,7 @@
   }
 },
 {
-  "color": "",
+  "color": "darkest-blue",
   "icons" : ["fa fa-info-circle"],
   "text" : "Information",
   "link": {
@@ -22,7 +22,7 @@
   }
 },
 {
-  "color": "green lighten-1",
+  "color": "light-blue",
   "icons" : ["fa fa-cutlery"],
   "text" : "Nahrung",
   "link": {
@@ -33,7 +33,7 @@
   }
 },
 {
-  "color": "blue lighten-2",
+  "color": "blue",
   "icons" : ["fa fa-male", "fa fa-female"],
   "text" : "WC",
   "link": {
@@ -44,7 +44,7 @@
   }
 },
 {
-  "color": "",
+  "color": "darkest-blue",
   "icons" : ["fa fa-user"],
   "text" : "Profil",
   "link": {

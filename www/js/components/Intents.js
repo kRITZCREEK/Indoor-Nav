@@ -1,35 +1,20 @@
 import React from 'react'
 import {Link} from 'react-router'
+import Intentcard from './Intentcard/Intentcard.js'
 
 export default class Intents extends React.Component {
-  static makeIcon(iconText){
-    return (
-      <i className={iconText} style={{fontSize: "50px", color: 'rgb(0,0,0)'}} key={iconText}/>
-    )
-  }
 
   intentCards() {
-    return this.props.intents.map(({color, icons, text, link}) => (
-        <div className="col s6 m4 l3" key={text}>
-          <Link to={link.name} params={link.params}>
-            <div className={"card-panel " + color}>
-                <div style={{textAlign: "center"}}>
-                    {icons.map(Intents.makeIcon)}
-                    <hr />
-                    <p style={{textTransform: "uppercase", color: 'rgb(0,0,0)'}}>
-                      {text}
-                    </p>
-                </div>
-            </div>
-          </Link>
+    return this.props.intents.map((intent) => (
+        <div className="col s6 m4 l3" key={intent.text}>
+          <Intentcard {...intent}/>
         </div>
       ))
   }
 
   render() {
     return (
-      <div className="container">
-        <h3>Campus Compass</h3>
+      <div className="Intents">
         <div className="row">
           {this.intentCards()}
         </div>
