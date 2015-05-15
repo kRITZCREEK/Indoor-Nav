@@ -1,11 +1,12 @@
 import React from 'react'
 import Profilitem from '../components/Profilitem.js'
+import CompassHeader from '../components/CompassHeader.js'
 
 export default class Profilview extends React.Component {
   render() {
     return (
       <main>
-        <h3>Campus Compass</h3>
+        <CompassHeader text="Profil"/>
         <ul className="collection">
             <Profilitem text="Profil" />
             <Profilitem text="Blind" />
