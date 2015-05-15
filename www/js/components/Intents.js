@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router'
 
 export default class Intents extends React.Component {
-  makeIcon(iconText){
+  static makeIcon(iconText){
     return (
       <i className={iconText} style={{fontSize: "50px", color: 'rgb(0,0,0)'}} key={iconText}/>
     )

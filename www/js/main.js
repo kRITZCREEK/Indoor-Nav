@@ -1,9 +1,10 @@
 /*
 static imports
  */
-import 'style/url!file!../css/materialize.css'
+import 'style/url!file!materialize-css/bin/materialize.css'
 import 'style/url!file!../css/font-awesome.css'
-import './vendor/materialize.js'
+import 'script!jquery'
+import 'script!materialize-css/bin/materialize.js'
 
 
 import React from 'react'
