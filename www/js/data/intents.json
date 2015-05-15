@@ -1,0 +1,54 @@
+[
+{
+  "color": "red lighten-1",
+  "icons": ["fa fa-medkit"],
+  "text": "Erste Hilfe",
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "erste-hilfe"
+    }
+  }
+},
+{
+  "color": "",
+  "icons" : ["fa fa-info-circle"],
+  "text" : "Information",
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "information"
+    }
+  }
+},
+{
+  "color": "green lighten-1",
+  "icons" : ["fa fa-cutlery"],
+  "text" : "Nahrung",
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "nahrung"
+    }
+  }
+},
+{
+  "color": "blue lighten-2",
+  "icons" : ["fa fa-male", "fa fa-female"],
+  "text" : "WC",
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "wc"
+    }
+  }
+},
+{
+  "color": "",
+  "icons" : ["fa fa-user"],
+  "text" : "Profil",
+  "link": {
+    "name": "profil"
+  }
+}
+]
