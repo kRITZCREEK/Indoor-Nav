@@ -15,9 +15,17 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </header>
     <main>
-    <h3>Campus Compass</h3>
+    <div class="navbar-fixed">
+    <nav>
+        <div class="nav-wrapper color-darkest-blue">
+        <a href="#" class="brand-logo center color-text-sand">Profil</a>
+        <a href="index.html">
+            <i class="mdi-navigation-arrow-back color-text-sand"></i>
+        </a>
+        </div>
+    </nav>
+</div>
     <ul class="collection">
-        <li class="collection-header"><h4>Profil</h4></li>
         <li class="collection-item">Rollstuhl
             <div class="secondary-content">
                 <div class="switch">
@@ -50,7 +58,7 @@
         </li>
         <li class="collection-item">
             <div class="input-field">
-                <input id="age" type="text" class="validate">
+                <input id="age" type="number" class="validate">
                 <label for="age">Alter</label>
             </div>
         </li>
@@ -60,5 +68,4 @@
         <a class="waves-effect blue darken-1 btn" href="index.html"><i class="mdi-content-save"></i>Speichern</a>
     </footer>
     <script src="js/main.js"></script>
-    <script type="text/javascript" src="js/vendor/materialize.js"></script>
 </html>

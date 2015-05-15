@@ -14,19 +14,22 @@
 <main>
     <div class="navbar-fixed">
         <nav>
-            <div class="nav-wrapper teal lighten-1">
-                <form>
-                    Nächstes Ziel: <em>Aufzug</em>
-                </form>
+            <div class="nav-wrapper color-darkest-blue">
+                <a href="#" class="brand-logo center color-text-sand">Navigation</a>
+                <a href="index.html">
+                    <i class="mdi-navigation-arrow-back color-text-sand"></i>
+                </a>
             </div>
         </nav>
     </div>
     <div class="row">
-        <div></div>
+        <div class="navigation-hinweis">Nächstes Ziel: <em>Aufzug</em></div>
     </div>
-    <div id="nav-arrow">
-        <i id="richtungsPfeil" class="fa fa-location-arrow" style="transform: rotate(60deg); font-size: 8rem"></i>
-        <i id="aufzug" class="mdi-image-details" style="display:none; font-size: 8rem"></i>
+    <div class="row">
+        <div id="nav-arrow">
+            <i id="richtungsPfeil" class="fa fa-location-arrow" style="transform: rotate(60deg); font-size: 8rem"></i>
+            <i id="aufzug" class="mdi-image-details" style="display:none; font-size: 8rem"></i>
+        </div>
     </div>
 </main>
 <footer id="nav-footer" class="page-footer blue lighten-3">
@@ -35,34 +38,28 @@
     <a class="btn-floating btn-large waves-effect blue darken-1"><i class="mdi-action-settings"></i></a>
 </footer>
 <script src="js/main.js"></script>
-<script type="text/javascript" src="js/vendor/materialize.js"></script>
 <script>
     (function (document) {
-        var i = 0;
-        var aufzug = false;
-
-        function changeDirection() {
-            i = (i + 10) % 360;
-            $('#richtungsPfeil').css('transform', 'rotate(' + i + 'deg)')
-        }
-
-        setInterval(changeDirection, 200);
-
-        function toggleIcon() {
-            if(!aufzug){
-                $('#richtungsPfeil').hide();
-                $('#aufzug').show();
-                aufzug = true;
-            }else{
-                $('#richtungsPfeil').show();
-                $('#aufzug').hide();
-                aufzug = false;
-            }
-        }
-        $('#startButton').on('click', toggleIcon)
+    var i = 0;
+    var aufzug = false;
+    function changeDirection() {
+    i = (i + 10) % 360;
+    $('#richtungsPfeil').css('transform', 'rotate(' + i + 'deg)')
+    }
+    setInterval(changeDirection, 200);
+    function toggleIcon() {
+    if(!aufzug){
+    $('#richtungsPfeil').hide();
+    $('#aufzug').show();
+    aufzug = true;
+    }else{
+    $('#richtungsPfeil').show();
+    $('#aufzug').hide();
+    aufzug = false;
+    }
+    }
+    $('#startButton').on('click', toggleIcon)
     }
     )();
-
-
-</script>
+    </script>
 </html>
