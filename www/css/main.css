@@ -106,6 +106,18 @@ textarea {
     background-color: #FFFFCB !important;
 }
 
+.color-dark-blue {
+  background-color: #2C858D !important;
+}
+
+.color-mid-blue {
+  background-color: #74CEB7 !important;
+}
+
+.color-light-blue {
+  background-color: #C9FFD5 !important;
+}
+
 body {
   display: flex;
   min-height: 100vh;
@@ -127,7 +139,9 @@ main {
   margin: auto;
 }
 
-
+#hover-options {
+  display: none;
+}
 
 
 
