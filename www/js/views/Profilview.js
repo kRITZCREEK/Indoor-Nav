@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import Profilitem from '../components/Profilitem.js'
 
 export default class Profilview extends React.Component {
@@ -18,6 +18,6 @@ export default class Profilview extends React.Component {
             </li>
         </ul>
       </main>
-    );
+    )
   }
 }

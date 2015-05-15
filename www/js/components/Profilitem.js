@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 export default class Profilitem extends React.Component {
   render() {
@@ -13,6 +13,6 @@ export default class Profilitem extends React.Component {
                 </div>
             </div>
         </li>
-    );
+    )
   }
 }

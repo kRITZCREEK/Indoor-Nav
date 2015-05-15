@@ -19,6 +19,6 @@ export default class Navigationview extends React.Component {
             <i id="aufzug" className="mdi-image-details" style={{display: "none", fontSize: "8rem"}}></i>
         </div>
       </main>
-    );
+    )
   }
 }

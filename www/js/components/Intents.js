@@ -14,7 +14,7 @@ export default class Intents extends React.Component {
           <Link to={link.name} params={link.params}>
             <div className={"card-panel " + color}>
                 <div style={{textAlign: "center"}}>
-                    {icons.map(this.makeIcon)}
+                    {icons.map(Intents.makeIcon)}
                     <hr />
                     <p style={{textTransform: "uppercase", color: 'rgb(0,0,0)'}}>
                       {text}
