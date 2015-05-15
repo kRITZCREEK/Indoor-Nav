@@ -94,18 +94,38 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.color-darkest-blue {
+    background-color: #004056 !important;
+}
 
+.color-text-sand {
+    color: #FFFFCB !important;
+}
 
+.color-sand {
+    background-color: #FFFFCB !important;
+}
 
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #FFFFCB !important;
+}
 
-
-
-
-
-
-
-
-
+main {
+  flex: 1 0 auto;
+}
+#nav-arrow {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
 
 
