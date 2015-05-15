@@ -2,7 +2,7 @@
 static imports
  */
 import 'style/url!file!materialize-css/bin/materialize.css'
-import 'style/url!file!../css/font-awesome.css'
+import 'style/url!file!font-awesome/css/font-awesome.css'
 import 'script!jquery'
 import 'script!materialize-css/bin/materialize.js'
 
