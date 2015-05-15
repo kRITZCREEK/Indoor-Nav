@@ -1,5 +1,5 @@
 import React from 'react'
-import Profilitem from '../components/Profilitem.js'
+import Profilitem from '../components/Profilitem/Profilitem.js'
 import CompassHeader from '../components/CompassHeader.js'
 
 export default class Profilview extends React.Component {
@@ -11,7 +11,7 @@ export default class Profilview extends React.Component {
             <Profilitem text="Profil" />
             <Profilitem text="Blind" />
             <Profilitem text="Farbenblind" />
-            <li className="collection-item">
+            <li className="collection-item color-sand">
                 <div className="input-field">
                     <input id="age" type="text" className="validate" />
                     <label htmlFor="age">Alter</label>
