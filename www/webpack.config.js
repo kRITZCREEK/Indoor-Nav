@@ -40,10 +40,5 @@ module.exports = {
         //but get it from a global 'React' variable
         //'react': 'React'
     },
-    plugins: [
-        new webpack.ProvidePlugin({
-            $: "jquery",
-            jQuery: "jquery"
-        })
-    ]
+    plugins: []
 }

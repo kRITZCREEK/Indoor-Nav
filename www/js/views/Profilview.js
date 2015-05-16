@@ -1,6 +1,6 @@
 import React from 'react'
 import Profilitem from '../components/Profilitem/Profilitem.js'
-import CompassHeader from '../components/CompassHeader.js'
+import CompassHeader from '../components/CompassHeader/CompassHeader.js'
 
 export default class Profilview extends React.Component {
     render() {
