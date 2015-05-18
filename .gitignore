@@ -3,3 +3,8 @@
 /www/bundle.js.map
 /.idea/
 *.iml
+/campuss-compass.sublime-project
+/campuss-compass.sublime-workspace
+/platforms/
+/plugins/
+/www/.tern-project
