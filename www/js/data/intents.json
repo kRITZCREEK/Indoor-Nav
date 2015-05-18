@@ -50,5 +50,13 @@
   "link": {
     "name": "profil"
   }
+},
+{
+  "color": "light-blue",
+  "icons" : ["fa fa-search"],
+  "text" : "Raum Suchen",
+  "link": {
+    "name": "suche"
+  }
 }
 ]

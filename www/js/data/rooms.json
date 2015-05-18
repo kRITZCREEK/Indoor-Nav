@@ -1,0 +1,18 @@
+[
+  {
+    "description": "Mathelabor",
+    "roomNumber" : "3013"
+  },
+  {
+    "description": "2110",
+    "roomNumber" : "2110"
+  },
+  {
+    "description": "Mensa",
+    "roomNumber" : "400"
+  },
+  {
+    "description": "Vorlesungsraum",
+    "roomNumber" : "3212"
+  }
+]
