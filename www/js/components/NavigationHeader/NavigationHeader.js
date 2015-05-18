@@ -16,7 +16,6 @@ export default class NavigationHeader extends React.Component {
     var wegoption = this.props.wegoption
     wegoption.manTueren = !wegoption.manTueren
     this.props.changeHandler(wegoption)
-    console.log(wegoption)
   }
 
   changeAussenbereich(){
@@ -35,14 +34,15 @@ export default class NavigationHeader extends React.Component {
           </a>
           <ul className="side-nav" id="mobile-demo">
             <li className="side-nav-header">Wegoptionen</li>
-            <MenuItem text="Treppen" checked={this.props.wegoption.treppen} onChange={this.changeTreppen} />
-            <MenuItem text="manuelle Türen" checked={this.props.wegoption.manTueren} onChange={this.changeManTueren} />
-            <MenuItem text="Außenbereich" checked={this.props.wegoption.aussenbereich} onChange={this.changeAussenbereich} />
+            <MenuItem text="Treppen" checked={this.props.wegoption.treppen}
+              onChange={this.changeTreppen.bind(this)} />
+            <MenuItem text="manuelle Türen" checked={this.props.wegoption.manTueren}
+              onChange={this.changeManTueren.bind(this)} />
+            <MenuItem text="Außenbereich" checked={this.props.wegoption.aussenbereich}
+              onChange={this.changeAussenbereich.bind(this)} />
           </ul>
         </CompassHeader>
       </div>
     )
   }
 }
-
-

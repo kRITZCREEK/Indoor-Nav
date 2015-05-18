@@ -8,7 +8,8 @@ export default class MenuItem extends React.Component {
       <li>
         <div className="switch">
           <label>
-            <input type="checkbox" checked={this.props.checked} onChange={this.props.onChange} />
+            <input type="checkbox" checked={this.props.checked}
+              onChange={this.props.onChange} />
             <span className="lever"></span>
             {this.props.text}
           </label>
