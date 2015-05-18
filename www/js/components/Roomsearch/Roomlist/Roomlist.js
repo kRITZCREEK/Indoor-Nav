@@ -14,7 +14,15 @@ export default class Roomlist extends React.Component {
   render() {
     return (
       <div className="Roomlist">
-        <ul>
+        <ul className="collection with-header">
+          <li className="collection-header">
+            <span className="description">
+              Raum
+            </span>
+            <span className="roomNumber">
+              Raumnummer
+            </span>
+          </li>
           {this.renderRooms()}
         </ul>
       </div>

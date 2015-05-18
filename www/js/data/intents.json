@@ -54,9 +54,9 @@
 {
   "color": "light-blue",
   "icons" : ["fa fa-search"],
-  "text" : "Raum Suchen",
+  "text" : "Raumsuche",
   "link": {
-    "name": "suche"
+    "name": "raumsuche"
   }
 }
 ]

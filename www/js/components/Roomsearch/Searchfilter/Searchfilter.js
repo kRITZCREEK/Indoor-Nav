@@ -10,7 +10,6 @@ export default class Searchfilter extends React.Component {
   }
 
   onChange(event) {
-    console.log(event)
     this.props.filter(event.target.value)
   }
 

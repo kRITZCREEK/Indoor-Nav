@@ -12,6 +12,12 @@ export default class Roomsearch extends React.Component {
     this.state = {filtered: []}
   }
 
+  componentWillMount() {
+    this.setState({
+      filtered: this.props.rooms
+    })
+  }
+
   filterRooms(filterString) {
     this.setState({filtered: this.props.rooms.filter(r =>
       r.description.startsWith(filterString) || r.roomNumber.startsWith(filterString))
