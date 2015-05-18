@@ -7,9 +7,9 @@ export default class MenuItem extends React.Component {
       <li>
         <div className="switch">
           <label>
-            {this.props.text}
             <input type="checkbox"/>
             <span className="lever"></span>
+            {this.props.text}
           </label>
         </div>
       </li>

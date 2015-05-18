@@ -14,9 +14,9 @@ export default class NavigationHeader extends React.Component {
           </a>
           <ul className="side-nav" id="mobile-demo">
             <li className="side-nav-header">Wegoptionen</li>
-            <MenuItem text="Lift bevorzugen" />
-            <MenuItem text="man. Türen" />
-            <MenuItem text="Innenbereich" />
+            <MenuItem text="Treppen" />
+            <MenuItem text="manuelle Türen" />
+            <MenuItem text="Außenbereich" />
           </ul>
         </CompassHeader>
       </div>
