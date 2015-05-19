@@ -5,7 +5,7 @@ export default class Weg{
 	//Prueft, ob jeder Schritt begehbar ist
 	istBegehbar(wegoptionen) {
 		return this.schritte.every(schritt =>
-		 schritt.istBegehbar(wegoptionen))
+			schritt.istBegehbar(wegoptionen))
 	}
 	laenge() {
 		return this.schritte.reduce((s1, s2) =>
