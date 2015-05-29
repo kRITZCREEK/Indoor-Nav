@@ -1,35 +1,10 @@
 [
 {
-  "color": "dark-blue",
-  "icons": ["fa fa-medkit"],
-  "text": "Erste Hilfe",
-  "link": {
-    "name": "navigation",
-    "params": {
-      "navTarget": "erste-hilfe"
-    }
-  }
-},
-{
-  "color": "darkest-blue",
-  "icons" : ["fa fa-info-circle"],
-  "text" : "Information",
-  "link": {
-    "name": "navigation",
-    "params": {
-      "navTarget": "information"
-    }
-  }
-},
-{
   "color": "light-blue",
-  "icons" : ["fa fa-cutlery"],
-  "text" : "Nahrung",
+  "icons" : ["fa fa-university"],
+  "text" : "Räume",
   "link": {
-    "name": "navigation",
-    "params": {
-      "navTarget": "nahrung"
-    }
+    "name": "raumsuche"
   }
 },
 {
@@ -45,18 +20,43 @@
 },
 {
   "color": "darkest-blue",
-  "icons" : ["fa fa-user"],
-  "text" : "Profil",
+  "icons" : ["fa fa-cutlery"],
+  "text" : "Nahrung",
   "link": {
-    "name": "profil"
+    "name": "navigation",
+    "params": {
+      "navTarget": "nahrung"
+    }
   }
 },
 {
   "color": "light-blue",
-  "icons" : ["fa fa-university"],
-  "text" : "Räume",
+  "icons" : ["fa fa-info-circle"],
+  "text" : "Information",
   "link": {
-    "name": "raumsuche"
+    "name": "navigation",
+    "params": {
+      "navTarget": "information"
+    }
+  }
+},
+{
+  "color": "dark-blue",
+  "icons": ["fa fa-medkit"],
+  "text": "Erste Hilfe",
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "erste-hilfe"
+    }
+  }
+},
+{
+  "color": "darkest-blue",
+  "icons" : ["fa fa-user"],
+  "text" : "Profil",
+  "link": {
+    "name": "profil"
   }
 }
 ]
