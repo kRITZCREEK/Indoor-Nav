@@ -17,7 +17,7 @@ export default class Searchfilter extends React.Component {
     return (
       <div className="Searchfilter">
         <form>
-          <input type="search" onChange={this.onChange}/>
+          <input type="search" placeholder="Raumfilter" onChange={this.onChange}/>
         </form>
       </div>
     )

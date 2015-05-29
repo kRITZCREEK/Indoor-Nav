@@ -53,8 +53,8 @@
 },
 {
   "color": "light-blue",
-  "icons" : ["fa fa-search"],
-  "text" : "Raumsuche",
+  "icons" : ["fa fa-university"],
+  "text" : "Räume",
   "link": {
     "name": "raumsuche"
   }

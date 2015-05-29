@@ -10,7 +10,7 @@ export default class Searchview extends React.Component {
   render() {
     return (
       <div>
-        <CompassHeader text="Raumsuche" />
+        <CompassHeader text="Räume" />
         <div className="container">
           <Roomsearch rooms={rooms} />
         </div>
