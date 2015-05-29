@@ -9,10 +9,9 @@ export default class Navigationview extends React.Component {
   constructor(){
     super()
     let wegoption = JSON.parse(window.localStorage.getItem('wegoption'))
-    let {manTueren, aussenbereich, treppen} = wegoption
     this.state = {
       wegoption: wegoption ?
-        new Wegoption(manTueren, aussenbereich, treppen)
+        new Wegoption(wegoption.manTueren, wegoption.aussenbereich, wegoption.treppen)
       : new Wegoption(true, true, true)
     }
   }
