@@ -19,7 +19,7 @@ import Navigationview from './views/Navigationview.js'
 var routes = (
   <Route name="app" handler={Mainview} path="/">
     <Route name="profil" handler={Profilview} />
-    <Route name="raumsuche" handler={Searchview} />
+    <Route name="raeume" handler={Searchview} />
     <Route name="navigation" path="navigation/:navTarget" handler={Navigationview} />
     <DefaultRoute handler={Intentview} />
   </Route>
