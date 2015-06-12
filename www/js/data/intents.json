@@ -14,7 +14,7 @@
   "link": {
     "name": "navigation",
     "params": {
-      "navTarget": "wc"
+      "navTarget": "WC"
     }
   }
 },
@@ -25,7 +25,7 @@
   "link": {
     "name": "navigation",
     "params": {
-      "navTarget": "nahrung"
+      "navTarget": "Nahrung"
     }
   }
 },
@@ -36,7 +36,7 @@
   "link": {
     "name": "navigation",
     "params": {
-      "navTarget": "information"
+      "navTarget": "Information"
     }
   }
 },
@@ -47,7 +47,7 @@
   "link": {
     "name": "navigation",
     "params": {
-      "navTarget": "erste-hilfe"
+      "navTarget": "Erste Hilfe"
     }
   }
 },

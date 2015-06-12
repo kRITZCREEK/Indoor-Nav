@@ -68,8 +68,6 @@ export default class Navigationview extends React.Component {
     )
     merged = merged.concat.apply(merged, steps)
     return merged.map(mkSchritt)
-
-
   }
 
   componentDidMount() {
@@ -87,7 +85,7 @@ export default class Navigationview extends React.Component {
   render() {
     return (
       <main>
-        <NavigationHeader wegoption={this.state.wegoption}
+        <NavigationHeader text={this.props.params} wegoption={this.state.wegoption}
           changeHandler={this.changeOptions.bind(this)} />
         <NavigationCompass {...this.state.schritt} />
       </main>

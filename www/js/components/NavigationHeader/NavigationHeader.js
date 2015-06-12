@@ -28,7 +28,7 @@ export default class NavigationHeader extends React.Component {
   render() {
     return (
       <div className="NavigationHeader">
-        <CompassHeader text="Navigation">
+        <CompassHeader text={this.props.text}>
           <a href="#" data-activates="mobile-demo" className="button-collapse">
             <i className="mdi-navigation-menu"></i>
           </a>

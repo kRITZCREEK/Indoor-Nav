@@ -1,18 +1,42 @@
 [
   {
     "description": "Mathelabor",
-    "roomNumber" : "3013"
+    "roomNumber" : "3013",
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Mathelabor"
+      }
+    }
   },
   {
     "description": "2110",
-    "roomNumber" : "2110"
+    "roomNumber" : "2110",
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "2110"
+      }
+    }
   },
   {
     "description": "Mensa",
-    "roomNumber" : "400"
+    "roomNumber" : "400",
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Mensa"
+      }
+    }
   },
   {
     "description": "Vorlesungsraum",
-    "roomNumber" : "3212"
+    "roomNumber" : "3212",
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Raum 3212"
+      }
+    }
   }
 ]
