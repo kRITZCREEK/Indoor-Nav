@@ -13,14 +13,19 @@ export default class NavigationCompass extends React.Component {
     return (
       <div className="NavigationCompass">
         <div className="next-target">
-          <i id="next" className="mdi-image-navigate-next" />
-          {this.props.nextTarget + " " + this.props.nextDistance + "m"}
+          <i className="mdi-image-navigate-next" />
+          {this.props.nextTarget}
+        </div>
+        <div className="next-distance">
+          {this.props.nextDistance + "m"}
         </div>
         <div className="row">
           <div className="nav-icon-wrapper">
             <i id="richtungsPfeil" className="nav-icon fa fa-location-arrow"
                style={this.transform(this.props.degree)} />
-            <i className={"nav-icon-extra " + this.props.extraIcon} />
+            <div className="extra-icon">
+              <i className={"nav-icon-extra " + this.props.extraIcon} />
+            </div>
           </div>
         </div>
         <div className="row">

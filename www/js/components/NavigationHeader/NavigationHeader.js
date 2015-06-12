@@ -30,7 +30,7 @@ export default class NavigationHeader extends React.Component {
       <div className="NavigationHeader">
         <CompassHeader text={this.props.text}>
           <a href="#" data-activates="mobile-demo" className="button-collapse">
-            <i className="mdi-navigation-menu"></i>
+            <i className="fa fa-cog"></i>
           </a>
           <ul className="side-nav" id="mobile-demo">
             <li className="side-nav-header">Wegoptionen</li>

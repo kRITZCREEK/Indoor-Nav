@@ -37,7 +37,7 @@ export default class Navigationview extends React.Component {
     let distances = vals[1]
     let targets = vals[2]
     let icons = vals[3]
-    let n = 10
+    let n = 50
 
     function mkSchritt([deg, dist, target, extraIcon]){
         return {
@@ -57,10 +57,19 @@ export default class Navigationview extends React.Component {
         return result
     }
 
+    function extendDeg(x1, x2, n){
+        let part = (x1 - x2) / n
+        let result = []
+        for (let i = 0; i < n; i++) {
+            result.push(Math.round(x1 - (part * i) + Math.random() * 15 - 7))
+        }
+        return result
+    }
+
     let merged = []
 
     let steps = _.zip(degrees, distances, targets, icons).map(([[de1, de2], [di1, di2], target, icon]) =>
-        _.zip(extend(de1, de2, n),
+        _.zip(extendDeg(de1, de2, n),
             extend(di1, di2, n),
             Array.apply(null, new Array(n)).map(function(){return target}),
             Array.apply(null, new Array(n)).map(function(){return icon})
@@ -73,7 +82,7 @@ export default class Navigationview extends React.Component {
   componentDidMount() {
     window.$('.button-collapse').sideNav()
     this.nextArray(route).map( (next, i) =>{
-        this.tick(i * 1000, next)
+        this.tick(i * 250, next)
     })
   }
 
