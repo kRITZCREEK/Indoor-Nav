@@ -2,7 +2,6 @@ import React from 'react'
 import {Link} from 'react-router'
 import './Roomsearch.styl'
 
-
 import Searchfilter from './Searchfilter/Searchfilter.js'
 import Roomlist from './Roomlist/Roomlist.js'
 
@@ -20,7 +19,8 @@ export default class Roomsearch extends React.Component {
 
   filterRooms(filterString) {
     this.setState({filtered: this.props.rooms.filter(r =>
-      r.description.startsWith(filterString) || r.roomNumber.startsWith(filterString))
+         r.description.indexOf(filterString) !== -1
+      || r.roomNumber.replace('.', '').startsWith(filterString))
       })
   }
 

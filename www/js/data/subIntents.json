@@ -1,0 +1,38 @@
+[
+{
+  "color": "blue",
+  "icons": ["fa fa-coffee"],
+  "text": "Kaffee",
+  "tags": ["Nahrung", "Kaffee"], 
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "Kaffee"
+    }
+  }
+},
+{
+  "color": "darkest-blue",
+  "icons" : ["fa fa-cutlery"],
+  "text" : "Mahlzeit",
+  "tags": "Nahrung", 
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "Mensa"
+    }
+  }
+},
+{
+  "color": "dark-blue",
+  "icons" : ["fa fa-clock-o"],
+  "text" : "Snack",
+  "tags": "Nahrung", 
+  "link": {
+    "name": "navigation",
+    "params": {
+      "navTarget": "Snack"
+    }
+  }
+}
+]

@@ -7,7 +7,7 @@ export default class Intents extends React.Component {
   intentCards() {
     return this.props.intents.map((intent) => (
         <div className="col s6 m4 l3" key={intent.text}>
-          <Intentcard {...intent}/>
+          <Intentcard {...intent} onSearch={this.props.onSearch}/>
         </div>
       ))
   }

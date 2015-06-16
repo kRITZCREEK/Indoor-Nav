@@ -1,7 +1,9 @@
 [
   {
     "description": "Mathelabor",
-    "roomNumber" : "3013",
+    "roomNumber" : "3.013",
+    "tags": [],
+    "tags": [],
     "link": {
       "name": "navigation",
       "params": {
@@ -10,8 +12,20 @@
     }
   },
   {
-    "description": "2110",
-    "roomNumber" : "2110",
+    "description": "2.110",
+    "roomNumber" : "2.110",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "2110"
+      }
+    }
+  },
+  {
+    "description": "2.230",
+    "roomNumber" : "2.230",
+    "tags": [],
     "link": {
       "name": "navigation",
       "params": {
@@ -21,7 +35,8 @@
   },
   {
     "description": "Mensa",
-    "roomNumber" : "400",
+    "roomNumber" : "0.400",
+    "tags": ["Nahrung"],
     "link": {
       "name": "navigation",
       "params": {
@@ -30,12 +45,101 @@
     }
   },
   {
+    "description": "Prof. Klocke",
+    "roomNumber" : "3.229",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Prof.Klocke"
+      }
+    }
+  },
+  {
+    "description": "Bibliothek",
+    "roomNumber" : "1.401",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Bibliothek"
+      }
+    }
+  },
+  {
     "description": "Vorlesungsraum",
-    "roomNumber" : "3212",
+    "roomNumber" : "3.212",
+    "tags": [],
     "link": {
       "name": "navigation",
       "params": {
         "navTarget": "Raum 3212"
+      }
+    }
+  },
+  {
+    "description": "WC",
+    "roomNumber" : "0.124",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Raum 3212"
+      }
+    }
+  },
+  {
+    "description": "WC",
+    "roomNumber" : "1.124",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Raum 3212"
+      }
+    }
+  },
+  {
+    "description": "Opitz Saal",
+    "roomNumber" : "1.400",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Opitz Saal"
+      }
+    }
+  },
+  {
+    "description": "Ferchau Saal",
+    "roomNumber" : "0.401",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Ferchau Saal"
+      }
+    }
+  },
+  {
+    "description": "Kienbaum Saal",
+    "roomNumber" : "0.403",
+    "tags": [],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Kienbaum Saal"
+      }
+    }
+  },
+  {
+    "description": "Kaffeebar",
+    "roomNumber" : "0.000",
+    "tags": ["Nahrung"],
+    "link": {
+      "name": "navigation",
+      "params": {
+        "navTarget": "Kaffeebar"
       }
     }
   }

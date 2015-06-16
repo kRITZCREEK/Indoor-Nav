@@ -6,7 +6,7 @@ import Roomsearch from '../components/Roomsearch/Roomsearch.js'
 import CompassHeader from '../components/CompassHeader/CompassHeader.js'
 
 
-export default class Searchview extends React.Component {
+export default class Roomsearchview extends React.Component {
   render() {
     return (
       <div>

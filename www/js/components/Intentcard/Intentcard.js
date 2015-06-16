@@ -10,9 +10,27 @@ export default class Intentcard extends React.Component {
     )
   }
 
+  handleClick(e) {
+    this.props.onSearch(this.props.search)
+  }
+
   render() {
-    return (
-      <Link to={this.props.link.name} params={this.props.link.params}>
+    if(!this.props.link){
+      return ( <div className="Intentcard"
+      onClick={this.handleClick.bind(this)}>
+          <div className={"card-panel " + this.props.color}>
+            <div style={{textAlign: "center"}}>
+              {this.props.icons.map(Intentcard.makeIcon)}
+              <hr />
+              <p>
+                {this.props.text}
+              </p>
+            </div>
+          </div>
+        </div>)
+    }
+    else{
+      return (<Link to={this.props.link.name} params={this.props.link.params}>
         <div className="Intentcard">
           <div className={"card-panel " + this.props.color}>
             <div style={{textAlign: "center"}}>
@@ -24,7 +42,7 @@ export default class Intentcard extends React.Component {
             </div>
           </div>
         </div>
-      </Link>
-    )
+      </Link>)
+    }
   }
 }

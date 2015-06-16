@@ -22,12 +22,8 @@
   "color": "darkest-blue",
   "icons" : ["fa fa-cutlery"],
   "text" : "Nahrung",
-  "link": {
-    "name": "navigation",
-    "params": {
-      "navTarget": "Nahrung"
-    }
-  }
+  "search": "Nahrung",
+  "tag": "Nahrung"
 },
 {
   "color": "light-blue",

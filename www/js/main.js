@@ -12,14 +12,14 @@ import Router, { Route, DefaultRoute } from 'react-router'
 import Mainview from './views/Mainview.js'
 import Profilview from './views/Profilview.js'
 import Intentview from './views/Intentview.js'
-import Searchview from './views/Searchview.js'
+import Roomsearchview from './views/Roomsearchview.js'
 import Navigationview from './views/Navigationview.js'
 
 
 var routes = (
   <Route name="app" handler={Mainview} path="/">
     <Route name="profil" handler={Profilview} />
-    <Route name="raeume" handler={Searchview} />
+    <Route name="raeume" handler={Roomsearchview} />
     <Route name="navigation" path="navigation/:navTarget" handler={Navigationview} />
     <DefaultRoute handler={Intentview} />
   </Route>
