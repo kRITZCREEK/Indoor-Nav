@@ -28,11 +28,11 @@
 {
   "color": "light-blue",
   "icons" : ["fa fa-info-circle"],
-  "text" : "Information",
+  "text" : "Portier",
   "link": {
     "name": "navigation",
     "params": {
-      "navTarget": "Information"
+      "navTarget": "Portier"
     }
   }
 },
